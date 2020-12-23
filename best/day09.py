@@ -7,7 +7,6 @@ def parse(file):
         return [int(l.strip()) for l in f]
 
 
-
 @timed(9, 1)
 def part_1(nums):
     """
